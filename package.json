@@ -1,0 +1,23 @@
+{
+  "name": "ionic-plugin-naver",
+  "version": "1.0.0",
+  "description": "Ionic2 Naver Plugin",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GHyeok",
+  "license": "ISC",
+  "keywords": [
+    "ionci2",
+    "cordova",
+    "naver"
+  ],
+  "devDependencies": {
+    "@angular/core": "^4.3.1",
+    "@ionic-native/core": "^4.1.0",
+    "rxjs": "^5.4.2",
+    "tsc": "^1.20150623.0"
+  }
+}
