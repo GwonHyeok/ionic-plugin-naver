@@ -124,14 +124,14 @@ export class AppModule {
 })
 export class MyPage {
 
-	constructor(public naver: Naver) {}
+  constructor(public naver: Naver) {}
 
-  	// 로그인 예시
-	doLogin() {
-		this.naver.login()
-			.then(response => console.log(response))
-			.catch(error => console.error(error));
-	}
+  // 로그인 예시
+  doLogin() {
+    this.naver.login()
+      .then(response => console.log(response))
+      .catch(error => console.error(error));
+  }
 }
 
 ```
@@ -144,24 +144,24 @@ export class MyPage {
 예를 들면 다음과 같습니다
 
 ```typescript
-	// 로그인
-	doLogin() {
-		this.naver.login()
-			.then(response => console.log(response)) // 성공
-			.catch(error => console.error(error)); // 실패
-	}
+// 로그인
+doLogin() {
+  this.naver.login()
+    .then(response => console.log(response)) // 성공
+    .catch(error => console.error(error)); // 실패
+}
 
-	// 내 정보 요청
-	requestMe() {
-		this.naver.requestMe()
-			.then(response => console.log(response)) // 성공
-			.catch(error => console.error(error)); // 실패
-	}
+// 내 정보 요청
+requestMe() {
+  this.naver.requestMe()
+    .then(response => console.log(response)) // 성공
+    .catch(error => console.error(error)); // 실패
+}
 
-	// 로그아웃 후 연동해제
-	doLogout() {
-		this.naver.logoutAndDeleteToken()
-			.then(response => console.log(response)) // 성공
-			.catch(error => console.error(error)); // 실패
-	}
+// 로그아웃 후 연동해제
+doLogout() {
+  this.naver.logoutAndDeleteToken()
+    .then(response => console.log(response)) // 성공
+    .catch(error => console.error(error)); // 실패
+}
 ```
