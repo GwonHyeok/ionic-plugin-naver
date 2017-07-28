@@ -1,7 +1,7 @@
 {
   "name": "ionic-plugin-naver",
-  "version": "1.0.0",
-  "description": "Ionic2 Naver Plugin",
+  "version": "1.0.1",
+  "description": "Ionic Naver Plugin",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "GHyeok",
   "license": "ISC",
   "keywords": [
-    "ionci2",
+    "ionic",
     "cordova",
     "naver"
   ],

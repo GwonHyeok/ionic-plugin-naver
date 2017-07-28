@@ -9,6 +9,7 @@ export interface NaverMeResponse {
     resultCode: string;
     message: string;
     response: {
+        encryptionId: string;
         email: string;
         nickname: string;
         profileImage: string;
